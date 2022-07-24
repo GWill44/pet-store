@@ -12,6 +12,7 @@ import { AdminOrdersComponent } from './component/admin/admin-orders/admin-order
 import { LoginComponent } from './component/login/login.component';
 import { AppRoutingModule } from "./app-routing.module";
 import {ShoppingCartComponent} from "./component/shopping-cart/shopping-cart.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {ShoppingCartComponent} from "./component/shopping-cart/shopping-cart.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
